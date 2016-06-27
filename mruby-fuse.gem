@@ -1,0 +1,6 @@
+name: mruby-fuse
+description: FUSE binding for mruby
+author: Russel Hunter Yukawa
+website: https://github.com/rhykw/mruby-fuse
+protocol: git
+repository: https://github.com/rhykw/mruby-fuse.git
