@@ -5,7 +5,7 @@ compiler:
 before_install:
     - sudo apt-get -qq update
 install:
-    - sudo apt-get -qq install rake bison git gperf libc6-dev
+    - sudo apt-get -qq install rake bison git gperf libc6-dev libfuse-dev
 before_script:
   - git clone https://github.com/mruby/mruby.git
   - cd mruby && cp -fp ../.travis_build_config.rb build_config.rb 
